@@ -1,0 +1,72 @@
+<html>
+    
+<link rel="stylesheet" href="style.css"/>
+
+    <head>
+        <title>Imersão Dev</title>
+    </head>
+
+    <body>
+        <h1>Classificação </h1>
+        <div class = "manager"> 
+        <input type="text" id="newplayer" name="jogador" placeholder="Insira o novo jogador"/><br> 
+        <button onClick = "allReset2(players)">Zerar tabela</button> 
+        <button onClick = "addPlayer(players)">Adicionar player</button>
+        <button onClick = "editResults()">Editar Tabela</button>
+
+        </div> <br>
+
+        <table style="width: 100%" class = "tbutton">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th colspan="4">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+                 <!-- <tr>
+                    <td>Paulo</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="acoes">
+                        <button onClick="adicionarVitoria()">Vitória</button>
+                    </td>
+                    <td class="acoes">
+                        <button onClick="adicionarEmpate()">Empate</button></td>
+                    <td class="acoes">
+                        <button onClick="adicionarDerrota()">Derrota</button>
+                    </td>
+                    <td class="acoes">
+                        <button onClick="reset()">Reset</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rafa</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="acoes">
+                        <button onClick="adicionarVitoria()">Vitória</button>
+                    </td>
+                    <td class="acoes">
+                        <button onClick="adicionarEmpate()">Empate</button></td>
+                    <td class="acoes">
+                        <button onClick="adicionarDerrota()">Derrota</button>
+                    </td>
+                    <td class="acoes">
+                        <button onClick="reset()">Reset</button>
+                    </td>
+                </tr>  -->
+            </tbody>
+        </table>
+
+        <script    src = "cod.js">        </script>
+    </body>
+</html>
